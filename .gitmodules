@@ -1,0 +1,3 @@
+[submodule "meta-aibaos"]
+	path = meta-aibaos
+	url = https://github.com/aibaos/meta-aibaos.git
