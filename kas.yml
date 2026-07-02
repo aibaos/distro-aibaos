@@ -2,20 +2,22 @@ header:
   version: 19
 
 machine: qemux86-64
-distro: nodistro
+distro: aibaos
 target: core-image-aibaos
 
 repos:
 
   poky:
     url: https://github.com/yoctoproject/poky.git
-    tag: scarthgap
+    branch: scarthgap
+    commit: 1d54d1c4736a114e1cecbe85a0306e3814d5ce70
     layers:
       meta:
 
   meta-openembedded:
     url: https://github.com/openembedded/meta-openembedded.git
-    tag: scarthgap
+    branch: scarthgap
+    commit: b0c2c648a1af89e7a8dd4c2ec841f3bc0ed0ccb9
     layers:
       meta-oe:
       meta-python:
@@ -24,6 +26,7 @@ repos:
   meta-complementary:
     url: https://github.com/andrerclaudio/yocto-digest.git
     branch: scarthgap
+    commit: 8e71aaeaed135e71ea9a00e3869e03c5bad14e59
     layers:
       tools/meta-complementary:
 
