@@ -1,3 +1,9 @@
 *build*
 
 kas-local*
+
+components/**
+!components/
+!components/README.md
+!components/layers/
+!components/layers/.gitkeep
