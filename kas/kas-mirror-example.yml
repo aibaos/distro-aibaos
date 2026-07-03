@@ -1,0 +1,8 @@
+header:
+  version: 19
+
+local_conf_header:
+  mirrors: |
+    SSTATE_MIRRORS ?= "file://.* https://example.com/sstate-cache/PATH;downloadfilename=PATH"
+    SOURCE_MIRROR_URL = "https://example.com/downloads/"
+    INHERIT += "own-mirrors"
