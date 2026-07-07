@@ -13,3 +13,8 @@
 <center>
   <img src="image/login.png" width="60%" alt="图片描述">
 </center>
+
+## 开发
+
+- 如果需要 Bitbake CLI，请运行：
+    - `source components/layers/poky/oe-init-build-env`
